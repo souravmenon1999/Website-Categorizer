@@ -1,0 +1,16 @@
+.center-container {
+    display: flex;
+    justify-content: flex-end; /* Center horizontally to the right */
+    align-items: center;
+    height: 100%;
+  }
+  
+  .response-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 300px; /* Set the maximum height for the box */
+    overflow-y: auto; /* Enable vertical scrollbar when content exceeds max height */
+    width: 60%; /* Adjust the width as needed */
+    margin-left: 300px; /* Move the box to the right */
+  }
+  
